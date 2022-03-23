@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Viiotti
 - 👀 I’m interested in improving my developer career
 - 🌱 I’m currently learning python and reactjs
-- 💞️ I’m looking to collaborate on big projects and flexible career
+- 💞️ I'm looking forward to collaborating on big projects and finding a flexible career
 - 📫 How to reach me; rafaelviotti@gmail.com
 
 <!---
