@@ -76,6 +76,42 @@ Linux, nginx, VPN-restricted boundaries, and recovery drills that are **actually
 
 ---
 
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🏠 [`local-ai-stack`](https://github.com/Viiotti/local-ai-stack)
+**Self-Hosted AI Infrastructure**
+Production-ready Docker stack for local LLM inference (Ollama), vector retrieval (Qdrant), observability (Langfuse), and Nginx edge routing.
+<br><br>
+`Docker` `Qdrant` `Ollama` `Langfuse` `Nginx`
+
+</td>
+<td width="33%" valign="top">
+
+### 🌐 [`portifolio`](https://github.com/Viiotti/portifolio)
+**Interactive Portfolio & Terminal**
+Zero-dependency dark-mode SPA featuring typing animations, interactive terminal emulator, and Lighthouse 95+ score.
+<br><br>
+`JavaScript` `CSS Grid` `PWA` `GitHub Pages`
+
+</td>
+<td width="33%" valign="top">
+
+### 🖥️ [`MainProject`](https://github.com/Viiotti/MainProject)
+**Dev Environment & Dotfiles**
+Automated idempotent bootstrap for Linux environments with Git-aware Bash prompts, custom Tmux splits, and sane developer defaults.
+<br><br>
+`Bash` `Tmux` `Linux` `Automation`
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🛠️ Tech Stack
 
 <div align="center">
