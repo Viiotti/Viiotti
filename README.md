@@ -137,7 +137,7 @@ Linux, nginx, VPN-restricted boundaries, and recovery drills that are **actually
 
 <div align="center">
 
-![Snake animation](https://github.com/Viiotti/Viiotti/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/Viiotti/Viiotti/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
