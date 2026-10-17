@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Rafael%20Viotti&fontSize=42&fontColor=f0f6fc&fontAlignY=35&desc=AI%20Engineer%20·%20Infrastructure%20·%20RAG%20·%20LLMOps&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Rafael%20Viotti&fontSize=42&fontColor=f0f6fc&fontAlignY=35&desc=AI%20Engineer%20%C2%B7%20Infrastructure%2C%20RAG%20%26%20LLMOps&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" alt="header"/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-viiotti.github.io-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white)](https://viiotti.github.io/portifolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rafael%20Viotti-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-viotti-86364b1a1)
@@ -17,88 +17,79 @@
 $ whoami
 ```
 
-**AI Engineer** who arrived from operations — not from research.
+**AI Engineer** anchored in a **Systems & Reliability Foundation** — arriving at AI infrastructure from mission-critical operations rather than purely academic research.
 
-I came up through hardware repair → field support → network monitoring → operational integrity analysis → **sole architect of a company's AI platform**. That path matters: I think about **latency, failure modes, and recovery** before I think about model choice.
+Over **~46 months** of hands-on IT and engineering experience, I progressed through hardware repair → N2 field support (Feluma) → **NOC Network Monitoring Analyst (Contracted to SADA Transportes)** at Hyti → Observability and Integrity Security Analyst at Ana Gaming (*Developed Python/Bash automations for observability routines, log processing, and L1/L2 operational incident mitigation*) → **Senior AI Engineer (Contract)** for **6 months** at MaxStartup as the **Sole architect and developer** of the company's AI integrations and multi-agent platform.
 
-Today I design and operate **self-hosted retrieval infrastructure** end to end — and I can tell you what it costs per query.
+Today I design and operate **self-hosted retrieval and multi-agent infrastructure** end to end — thinking about **latency, failure modes, and deterministic recovery** before model choice.
 
 ```python
 class RafaelViotti:
-    role       = "AI Engineer"
+    role       = "AI Engineer · Infrastructure, RAG & LLMOps"
     location   = "Belo Horizonte, MG 🇧🇷"
-    background = "Operations → Infrastructure → AI Engineering"
-    
+    foundation = "Systems & Reliability Foundation (~46 months IT & AI)"
+
     focus = [
         "Retrieval-Augmented Generation (RAG)",
         "Self-hosted AI Infrastructure",
-        "Agent Orchestration",
+        "Bounded Multi-Agent Orchestration & MCP Protocols",
         "LLM Observability & Tracing",
     ]
-    
+
     philosophy = "Operations first, models second."
 ```
 
 ---
 
-## ⚡ What I Build
+## 🔭 Focus & Engineering Philosophy
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🔍 Retrieval Systems
-Chunking, embeddings, vector search, and the **evaluation** most RAG deployments never get around to
-
-</td>
-<td width="50%" valign="top">
-
-### 🏗️ AI Infrastructure
-Qdrant, Ollama, LangFuse, LlamaIndex — running on hardware I administer myself
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 Agent Orchestration
-Bounded delegation, isolated contexts, **fail-closed by default**
-
-</td>
-<td width="50%" valign="top">
-
-### 🔧 Operations
-Linux, nginx, VPN-restricted boundaries, and recovery drills that are **actually rehearsed**
-
-</td>
-</tr>
-</table>
+- **Operational Reliability First:** Grounded in a **Systems & Reliability Foundation** across NOC monitoring and operational integrity. Agentic systems are engineered around recoverability, telemetry, and strict network boundaries.
+- **Recoverable Vector State:** Treating vector databases not as fragile state, but as derived, rebuildable indexes backed by authoritative filesystem knowledge tiers (`raw` / `reviewed` / `canonical`).
+- **Cost & Boundary Control:** Zero external API cost for local embedding pipelines via Ollama (`nomic-embed-text`, `768d`) paired with bounded subagent execution (depth-one delegation, isolated child contexts, fail-closed design).
 
 ---
 
-## 🚀 Featured Projects
+## 🛠 Flagship Architecture: Mother / Hermes & Tanya Public Showcase
+
+**Mother / Hermes** is a self-hosted subagentic RAG platform built and operated end to end on dedicated Linux infrastructure:
+
+- **Bounded Multi-Agent Orchestration:** LangGraph-based execution engine with depth-one subagent delegation, isolated child contexts, centralized validation, and **MCP protocols** for read-only semantic memory bridges.
+- **Multi-Domain Vector Retrieval:** Self-hosted Qdrant deployment featuring a **Multi-Domain** collection architecture with per-domain isolation and local vector generation via Ollama (`nomic-embed-text`, `768d`).
+- **Self-Hosted LangFuse Observability:** Full **Self-hosted LangFuse** stack (web, worker, ClickHouse, Postgres, MinIO, and Redis) instrumenting end-to-end trace latency, token utilization, and retrieval evaluation.
+- **Hardened Host Boundary:** Dedicated Linux server managed via systemd services with access restricted behind a WireGuard-only nginx boundary and rehearsed index/state recovery drills.
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
+
+### 🏛️ [`tanya-showcase`](https://github.com/Viiotti/portifolio/tree/main/tanya-showcase)
+**Mother / Hermes Architecture**
+Sanitized public architectural documentation, bounded delegation contracts, Multi-Domain Qdrant schemas, and engineering changelog for the Tanya host.
+<br><br>
+`Mother / Hermes` `Qdrant` `Ollama 768d` `Self-hosted LangFuse` `MCP`
+
+</td>
+<td width="50%" valign="top">
 
 ### 🏠 [`local-ai-stack`](https://github.com/Viiotti/local-ai-stack)
 **Self-Hosted AI Infrastructure**
-Production-ready Docker stack for local LLM inference (Ollama), vector retrieval (Qdrant), observability (Langfuse), and Nginx edge routing.
+Production-oriented Docker stack for local LLM inference (Ollama), vector retrieval (Qdrant), observability (Self-hosted LangFuse), and Nginx edge routing.
 <br><br>
-`Docker` `Qdrant` `Ollama` `Langfuse` `Nginx`
+`Docker` `Qdrant` `Ollama` `LangFuse` `Nginx`
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🌐 [`portifolio`](https://github.com/Viiotti/portifolio)
 **Interactive Portfolio & Terminal**
-Zero-dependency dark-mode SPA featuring typing animations, interactive terminal emulator, and Lighthouse 95+ score.
+Zero-dependency dark-mode SPA featuring an interactive terminal emulator, engineering case studies, and ATS-ready resume view.
 <br><br>
-`JavaScript` `CSS Grid` `PWA` `GitHub Pages`
+`JavaScript` `CSS Grid` `HTML5` `Cloudflare Pages`
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 🖥️ [`MainProject`](https://github.com/Viiotti/MainProject)
 **Dev Environment & Dotfiles**
@@ -116,37 +107,36 @@ Automated idempotent bootstrap for Linux environments with Git-aware Bash prompt
 
 <div align="center">
 
-### Core
+### Languages & Core
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### AI & Data
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+### AI, RAG & LLMOps
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-6B4FBB?style=for-the-badge&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![LangFuse](https://img.shields.io/badge/LangFuse-000000?style=for-the-badge&logoColor=white)
 
-### Web & Frameworks
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-
-### Infrastructure & Tools
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+### Infrastructure & Systems Reliability
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 </div>
+
+---
+
+## 🎓 Education & Systems Foundation
+
+- **B.S. (Tecnólogo) in Systems Analysis and Development (ADS)** — **PUC Minas** (*Jan 2026 – Jun 2028, in progress*)
+- **Technical Degree in Computer Science** — **Cotemig** (*2018 – 2020*)
+- **Systems & Reliability Foundation:** **~46 months** of documented IT operations, network monitoring, operational integrity, and AI engineering experience (plus ongoing independent work and CKA preparation in progress).
 
 ---
 
