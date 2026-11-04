@@ -17,11 +17,11 @@
 $ whoami
 ```
 
-**AI Engineer** anchored in a **Systems & Reliability Foundation** — arriving at AI infrastructure from mission-critical operations rather than purely academic research.
+**AI Engineer** anchored in a **Systems & Reliability Foundation**, arriving at AI infrastructure from mission-critical operations rather than purely academic research.
 
 Over **~46 months** of hands-on IT and engineering experience, I progressed through hardware repair → N2 field support (Feluma) → **NOC Network Monitoring Analyst (Contracted to SADA Transportes)** at Hyti → Observability and Integrity Security Analyst at Ana Gaming (*Developed Python/Bash automations for observability routines, log processing, and L1/L2 operational incident mitigation*) → **Senior AI Engineer (Contract)** for **6 months** at MaxStartup as the **Sole architect and developer** of the company's AI integrations and multi-agent platform.
 
-Today I design and operate **self-hosted retrieval and multi-agent infrastructure** end to end — thinking about **latency, failure modes, and deterministic recovery** before model choice.
+Today I design and operate **self-hosted retrieval and multi-agent infrastructure** end to end, thinking about **latency, failure modes, and deterministic recovery** before model choice.
 
 ```python
 class RafaelViotti:
@@ -83,10 +83,10 @@ Production-oriented Docker stack for local LLM inference (Ollama), vector retrie
 <td width="50%" valign="top">
 
 ### 🌐 [`portifolio`](https://github.com/Viiotti/portifolio)
-**Interactive Portfolio & Terminal**
-Zero-dependency dark-mode SPA featuring an interactive terminal emulator, engineering case studies, and ATS-ready resume view.
+**Engineering Portfolio & Case Studies**
+Static Astro application featuring interactive architecture inspection, Command Palette (`Ctrl+K`), WCAG AA dark/light themes, and ATS-ready resume view.
 <br><br>
-`JavaScript` `CSS Grid` `HTML5` `Cloudflare Pages`
+`Astro` `TypeScript` `Playwright` `GitHub Actions`
 
 </td>
 <td width="50%" valign="top">
@@ -134,8 +134,8 @@ Automated idempotent bootstrap for Linux environments with Git-aware Bash prompt
 
 ## 🎓 Education & Systems Foundation
 
-- **B.S. (Tecnólogo) in Systems Analysis and Development (ADS)** — **PUC Minas** (*Jan 2026 – Jun 2028, in progress*)
-- **Technical Degree in Computer Science** — **Cotemig** (*2018 – 2020*)
+- **B.S. (Tecnólogo) in Systems Analysis and Development (ADS)**: **PUC Minas** (*Jan 2026 to Jun 2028, in progress*)
+- **Technical Degree in Computer Science**: **Cotemig** (*2018 to 2020*)
 - **Systems & Reliability Foundation:** **~46 months** of documented IT operations, network monitoring, operational integrity, and AI engineering experience (plus ongoing independent work and CKA preparation in progress).
 
 ---
@@ -171,7 +171,7 @@ Automated idempotent bootstrap for Linux environments with Git-aware Bash prompt
 
 <div align="center">
 
-### 💬 *"I treat a vector index as derived, rebuildable state — not something precious."*
+### 💬 *"I treat a vector index as derived, rebuildable state, not something precious."*
 
 ---
 
